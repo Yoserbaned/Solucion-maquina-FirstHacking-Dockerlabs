@@ -31,9 +31,9 @@ msf > search vsftpd 2.3.4
 Matching Modules
 
 
-     Name                                  Disclosure Date  Rank       Check  Description
+    Name                                  Disclosure Date  Rank       Check  Description
 
-   0  exploit/unix/ftp/vsftpd_234_backdoor  2011-07-03      CENSURED   CENSURED CENSURED
+    0  exploit/unix/ftp/vsftpd_234_backdoor  2011-07-03      CENSURED   CENSURED CENSURED
    -  ----                                  ---------------  ----       -----  -----------
 como tenemos un exploit que podemos usar usamos el comando show options para ver que nos pide , insertamos todos los datos que pide y ejecutamos con el comando run :
 
