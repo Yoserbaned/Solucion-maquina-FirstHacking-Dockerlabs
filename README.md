@@ -7,19 +7,19 @@ Esta maquina/laboratorio controlado, se aplican tecnicas de pen testing basicas.
 -utilizamos la herramienta de nmap con el siguiente comando :
 
 
- nmap -T5 -sV  172.17.0.2
+    nmap -T5 -sV  172.17.0.2
 
-Starting Nmap 7.95 ( https://nmap.org ) at 2025-12-23 21:36 -04
-Nmap scan report for 172.17.0.2
-Host is up (0.000015s latency).
-Not shown: 999 closed tcp ports (reset)
-PORT   STATE SERVICE VERSION
-21/tcp open  ftp     vsftpd 2.3.4
-MAC Address: 02:42:AC:11:00:02 (Unknown)
-Service Info: OS: Unix
+    Starting Nmap 7.95 ( https://nmap.org ) at 2025-12-23 21:36 -04
+    Nmap scan report for 172.17.0.2
+    Host is up (0.000015s latency).
+    Not shown: 999 closed tcp ports (reset)
+    PORT   STATE SERVICE VERSION
+    21/tcp open  ftp     vsftpd 2.3.4
+    MAC Address: 02:42:AC:11:00:02 (Unknown)
+    Service Info: OS: Unix
 
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 0.60 seconds
+    Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+    Nmap done: 1 IP address (1 host up) scanned in 0.60 seconds
 
 Esto, nos indica que el puerto 21 es el unico abierto, por lo cual es el unico vector para entrar en la maquina ,al ver la version de la maquina  nos damos cuenta de la version del servicio (vsftpd 2.3.4)
 esta es una version que salio en Julio de 2011, lo cual es bastante desactualizada para las versiones disponibles de hoy en dia. 
