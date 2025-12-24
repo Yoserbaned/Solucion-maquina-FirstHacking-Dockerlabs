@@ -29,9 +29,9 @@ esta es una version que salio en Julio de 2011, lo cual es bastante desactualiza
 
 msf > search vsftpd 2.3.4
 Matching Modules
-================
 
-   #  Name                                  Disclosure Date  Rank       Check  Description
+
+     Name                                  Disclosure Date  Rank       Check  Description
    -  ----                                  ---------------  ----       -----  -----------
    0  exploit/unix/ftp/vsftpd_234_backdoor  2011-07-03      CENSURED   CENSURED CENSURED
 
