@@ -92,7 +92,9 @@ volvemos a ver cuales son los parametros con show options,  le mandamos los para
 #MAQUINA VULNERADA Y ESCALADA DE PRIVILEGIOS CON ROOT
 
  #CONCLUSIONES
+ ----------------
 La maquina  fue vulnerada gracias a la version de servicio, esto la deja expuesta completamente
+
 #RECOMENDACIONES
 --------------
  actualizar la version del servicio
