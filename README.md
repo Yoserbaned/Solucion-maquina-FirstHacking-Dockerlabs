@@ -47,7 +47,7 @@ como tenemos un exploit que podemos usar usamos el comando show options para ver
 
 con esto logramos "acceder" a la maquina , pero no podemos ejecutar comandos por el tipo de sesion que tenemos(session shell) , para resumirlo, debemos escalar privilegios.
 
-# 2.POST-EXPLOTACION (ESCALAR PRIVILEGIOS)
+# 3.POST-EXPLOTACION (ESCALAR PRIVILEGIOS)
 dejamos la sesion en background con control+z , y buscamos con metasploit, una sesion meterpreter para shell: 
 
     msf exploit(unix/ftp/vsftpd_234_backdoor) > search shell_to_meterpreter
